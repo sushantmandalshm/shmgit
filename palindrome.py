@@ -1,12 +1,12 @@
 def isPalindrome(n):
     if n < 0:
-        return False
+        return 0
     else:
         num_str = str(n)
         if num_str[::-1] == str(n):
-            return True
+            return 1
         else:
-            return False
+            return 0
 
 print(isPalindrome(12121))
 print(isPalindrome(2147447412))
