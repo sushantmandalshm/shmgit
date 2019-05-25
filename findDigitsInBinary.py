@@ -1,6 +1,8 @@
 def decimalToBinary(n):
     a_list = []
     binary = ''
+    if n == 0:
+        return 0
     while n > 0:
         rem = n % 2
         a_list.append(rem)
@@ -10,4 +12,4 @@ def decimalToBinary(n):
         binary = binary + str(num)
     return int(binary)
 
-print(decimalToBinary(15))
+print(decimalToBinary(2))
