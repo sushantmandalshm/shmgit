@@ -7,3 +7,4 @@ c = 0
 c = a & b; 
 print(bin(c))       # 12 = 0000 1100
 print ("Line 1 - Value of c is ", c)
+#Test
